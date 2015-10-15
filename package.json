@@ -1,0 +1,49 @@
+{
+  "name": "tos",
+  "version": "1.0.0",
+  "description": "Terms of Service and Privacy Policy Generator",
+  "repository": "busterc/tos",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "http://about.me/buster"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "tos",
+    "privacy",
+    "policy",
+    "generator",
+    "terms",
+    "of",
+    "service"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "ISC",
+  "bin": {
+    "tos": "dist/cli.js"
+  },
+  "dependencies": {
+    "html-entities": "^1.2.0",
+    "html2jade": "^0.8.4",
+    "request": "^2.65.0"
+  }
+}
