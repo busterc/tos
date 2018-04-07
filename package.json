@@ -17,9 +17,9 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "html-entities": "^1.2.0",
-    "html2jade": "^0.8.4",
-    "request": "^2.65.0"
+    "html-entities": "^1.2.1",
+    "html2jade": "^0.8.6",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
@@ -29,7 +29,7 @@
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
-    "jest": "^22.0.6",
+    "jest": "^22.4.3",
     "lint-staged": "^7.0.4",
     "nsp": "^3.2.1",
     "prettier": "^1.11.1",
