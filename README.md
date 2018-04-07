@@ -1,7 +1,8 @@
 # ToS [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 > Terms of Service and Privacy Policy Generator
 
-The content generated is derived from Ben Nadel's [web-based generator](http://www.bennadel.com/coldfusion/privacy-policy-generator.htm). I appreciate it so much I wanted a CLI and Jade output for it.
+The content generated is derived from Ben Nadel's [web-based generator](https://www.bennadel.com/coldfusion/privacy-policy-generator.htm). I appreciate it so much I wanted a CLI and ~~Jade~~ Pug output for it.
 
 ## Install
 
@@ -23,7 +24,7 @@ $ tos
 
     -h, --html  outputs as HTML
 
-$ tos "Yo Company Name, Inc." "Delaware" > tos.jade
+$ tos "Yo Company Name, Inc." "Delaware" > tos.pug
 $ tos --html "Yo Company Name, Inc." "Delaware" > tos.html
 ```
 
@@ -32,19 +33,21 @@ $ tos --html "Yo Company Name, Inc." "Delaware" > tos.html
 ```js
 var tos = require('tos');
 
-tos({
-  markup: 'html', // 'markup' is optional, the default output is Jade
-  company: 'Yo Company Name, Inc.',
-  state: 'Delaware'
-}, function(error, result) {
-  // do yo thang
-});
+tos(
+  {
+    markup: 'html', // 'markup' is optional, the default output is Pug
+    company: 'Yo Company Name, Inc.',
+    state: 'Delaware'
+  },
+  function(error, result) {
+    // do yo thang
+  }
+);
 ```
 
 ## License
 
 ISC © [Buster Collings](http://about.me/buster)
-
 
 [npm-image]: https://badge.fury.io/js/tos.svg
 [npm-url]: https://npmjs.org/package/tos
