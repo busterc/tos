@@ -72,5 +72,6 @@
     "*.js": ["eslint --fix", "git add"],
     "*.json": ["prettier --write", "git add"],
     "package.json": ["prettier-package-json --write", "git add"]
-  }
+  },
+  "reveal": true
 }
