@@ -1,5 +1,7 @@
 # ToS [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/busterc/tos.svg)](https://greenkeeper.io/)
+
 > Terms of Service and Privacy Policy Generator
 
 The content generated is derived from Ben Nadel's [web-based generator](https://www.bennadel.com/coldfusion/privacy-policy-generator.htm). I appreciate it so much I wanted a CLI and ~~Jade~~ Pug output for it.
